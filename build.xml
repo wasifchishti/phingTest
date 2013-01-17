@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="helloworld" basedir="." default="helloworld">
+
+<property name="builddir" value="./build"/>
+<target name="clean">
+    <echo msg="Clean..." />
+    <delete dir="${builddir}" />        
+</target>
+
+</project>
