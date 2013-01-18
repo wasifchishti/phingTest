@@ -5,7 +5,7 @@
 <property name="basedir" value="."/>
 <target name="clean">
     <echo msg="Clean..." />
-    <delete dir="${builddir}" /> 
+    
 
 	<copy todir="var/www/phingTest" overwrite="true">
 	  <fileset dir="${basedir}">
