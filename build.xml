@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="helloworld" basedir="." default="helloworld">
+<project name="helloworld" basedir="." default="phingTest">
 
 <property name="builddir" value="./build"/>
+<property name="basedir" value="."/>
 <target name="clean">
     <echo msg="Clean..." />
-    <delete dir="${builddir}" />        
+    <delete dir="${builddir}" /> 
+
+	<copy todir="var/www/phingTest" overwrite="true">
+	  <fileset dir="${basedir}">
+		<include>**</include>
+		<exclude>**/.git/**</exclude>
+	  </fileset>
+	</copy>
+       
 </target>
+
+
+
 
 </project>
