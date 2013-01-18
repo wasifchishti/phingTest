@@ -5,12 +5,15 @@
 
 <target name="clean">
     <echo msg="Clean..." />
-	<copy todir="var/www/phingTest" overwrite="true">
+	<!--<copy todir="var/www/phingTest" overwrite="true">
 	  <fileset dir=".">
 		<include>**</include>
 		<exclude>**/.git/**</exclude>
 	  </fileset>
-	</copy>
+	</copy>-->
+
+
+<copy file="./app/index.php" tofile="var/www/phingTest/app/index.php" />
        
 </target>
 
