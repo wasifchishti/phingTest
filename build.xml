@@ -6,7 +6,7 @@
 <target name="clean">
     <echo msg="Clean..." />
 
-	<echo msg="Deleting build directories" level="debug"/>
+	<echo msg="Deleting build directories"/>
 
        
 </target>

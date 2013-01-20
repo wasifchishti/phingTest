@@ -7,6 +7,6 @@
 
 <body>
 	<?php echo "This is the homepage"; ?>
-	<?php echo "Hello"; ?>
+	<?php echo "Hello testing again"; ?>
 </body>
 </html>
