@@ -5,10 +5,20 @@
 
 <target name="clean">
     <echo msg="Clean..." />
-
+	<!--<copy todir="var/www/phingTest" overwrite="true">
+	  <fileset dir=".">
+		<include>**</include>
+		<exclude>**/.git/**</exclude>
+	  </fileset>
+	</copy>-->
 	<echo message="Deleting build directories" level="debug"/>
+
+
 
        
 </target>
+
+
+
 
 </project>
