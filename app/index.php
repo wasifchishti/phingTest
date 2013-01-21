@@ -6,7 +6,7 @@
 </head>
 
 <body>
-	<?php echo "This is the homepage<br/> "; ?>
-	<?php echo "Hello testing once again today"; ?>
+	<?php echo "<h1>This is the homepage<h1><br/> "; ?>
+	<?php echo "<h2>Hello testing again<h2>"; ?>
 </body>
 </html>
