@@ -6,6 +6,7 @@
 <target name="clean">
     <echo msg="Clean..." />
 
+	<echo msg="Hello"/>
 	<echo msg="Deleting build directories"/>
 
        
